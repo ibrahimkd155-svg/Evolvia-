@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050B1A">
+  <title>PARTAW DIGITAL | پرتو دیجیتال — A Brighter Digital Future</title>
+  <meta name="description" content="PARTAW DIGITAL: web development, database development, graphic design and video editing — all in one place.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:title" content="PARTAW DIGITAL | پرتو دیجیتال">
+  <meta property="og:description" content="A Brighter Digital Future.">
+  <meta property="og:image" content="partaw-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Logo intro (about 3 seconds, plays once per page load) -->
+  <div id="intro" aria-hidden="true">
+    <div class="intro-core">
+      <img src="partaw-logo.png" alt="">
+      <span class="intro-name">PARTAW DIGITAL</span>
+    </div>
+  </div>
+
+  <div class="sky" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="PARTAW DIGITAL">
+      <img src="partaw-logo.png" alt="">
+      <span class="brand-text"><b>PARTAW</b><i>DIGITAL</i></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#founder" data-i18n="nav.founder">Founder</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-end">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="fa" lang="fa">دری</button>
+        <button type="button" data-lang="ps" lang="ps">پښتو</button>
+      </div>
+      <a class="btn btn-outline nav-cta" href="#contact"><span data-i18n="nav.cta">Get started</span></a>
+      <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <p class="kicker" data-i18n="hero.kicker">Digital solutions for a stronger tomorrow</p>
+        <h1 data-i18n-html="hero.title">We build your<br><span class="hl">digital</span> future</h1>
+        <p class="lead" data-i18n="hero.lead">Web development, database development, graphic design and video editing — all in one place.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#services"><span data-i18n="hero.btn1">Explore our services</span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-outline" href="#contact"><span data-i18n="nav.cta">Get started</span></a>
+        </div>
+      </div>
+
+      <div class="stage" id="stage" aria-hidden="true">
+        <div class="beam"></div>
+        <div class="float">
+          <div class="emblem" id="emblem">
+            <div class="halo"></div>
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <img src="partaw-logo.png" alt="">
+            <div class="flare"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section wrap" id="services">
+      <div class="section-head">
+        <h2 data-i18n="services.title">Everything your brand needs online.</h2>
+        <p data-i18n="services.sub">Four services, one team.</p>
+      </div>
+      <div class="grid-4">
+        <article class="card tilt">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span>
+          <h3 data-i18n="s1.t">Website design</h3>
+          <p data-i18n="s1.d">Fast, responsive websites that present your brand clearly and turn visitors into clients.</p>
+          <a class="more" href="#contact"><span data-i18n="s.link">Discuss this</span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="card tilt">
+          <span class="icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="7.5" ry="2.8"/><path d="M4.5 5.5v6.5c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8V5.5M4.5 12v6.5c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8V12"/></svg></span>
+          <h3 data-i18n="s2.t">Database development</h3>
+          <p data-i18n="s2.d">Well-structured databases that keep your business data organized, secure and ready to use.</p>
+          <a class="more" href="#contact"><span data-i18n="s.link">Discuss this</span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="card tilt">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 20l-7-2 2-7L17 3l4 4-9 10-2 3zM15 5l4 4M7 11l6 6"/></svg></span>
+          <h3 data-i18n="s3.t">Graphic design</h3>
+          <p data-i18n="s3.d">Logos, social media creatives and marketing visuals with one consistent look.</p>
+          <a class="more" href="#contact"><span data-i18n="s.link">Discuss this</span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="card tilt">
+          <span class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5-4.5-2.5z"/></svg></span>
+          <h3 data-i18n="s4.t">Video editing</h3>
+          <p data-i18n="s4.d">Short-form edits, promos and social videos cut to hold attention.</p>
+          <a class="more" href="#contact"><span data-i18n="s.link">Discuss this</span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO (sample cards: replace titles and visuals with real projects) -->
+    <section class="section wrap" id="portfolio">
+      <div class="section-head">
+        <h2 data-i18n="portfolio.title">Selected work</h2>
+        <p data-i18n="portfolio.sub">A few of the things we make.</p>
+      </div>
+      <div class="grid-3">
+        <article class="work tilt">
+          <div class="work-visual v-web"><i></i><i></i><i></i></div>
+          <div class="work-meta"><h3 data-i18n="p1.t">Business website</h3><span data-i18n="s1.t">Website design</span></div>
+        </article>
+        <article class="work tilt">
+          <div class="work-visual v-brand"><i></i><i></i><i></i><i></i></div>
+          <div class="work-meta"><h3 data-i18n="p2.t">Brand identity kit</h3><span data-i18n="s3.t">Graphic design</span></div>
+        </article>
+        <article class="work tilt">
+          <div class="work-visual v-video"><i></i></div>
+          <div class="work-meta"><h3 data-i18n="p3.t">Promo video</h3><span data-i18n="s4.t">Video editing</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section wrap about" id="about">
+      <div class="about-copy">
+        <h2 data-i18n="about.title">We bring light to your brand.</h2>
+        <p data-i18n="about.p1">Partaw means a ray of light. We build websites, databases, visuals and video that help people and businesses show up online with clarity.</p>
+      </div>
+      <ul class="principles">
+        <li><h3 data-i18n="a1.t">One team, one look</h3><p data-i18n="a1.d">Websites, data, visuals and video fit together because the same people make them.</p></li>
+        <li><h3 data-i18n="a2.t">Made for your audience</h3><p data-i18n="a2.d">We design in Dari, Pashto and English, left-to-right and right-to-left.</p></li>
+        <li><h3 data-i18n="a3.t">Built for every screen</h3><p data-i18n="a3.d">Fast, responsive pages that work on phones, tablets and computers.</p></li>
+      </ul>
+    </section>
+
+    <!-- FOUNDER (placeholder: add the real name, photo and story) -->
+    <section class="section wrap" id="founder">
+      <div class="founder">
+        <div class="avatar" aria-hidden="true"><img src="partaw-logo.png" alt=""></div>
+        <div>
+          <h2 data-i18n="founder.title">Meet the founder</h2>
+          <p class="who"><strong data-i18n="founder.name">Founder name</strong><span data-i18n="founder.role">Founder, Partaw Digital</span></p>
+          <p data-i18n="founder.bio">Add a short story here about who started Partaw Digital and why.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section wrap" id="contact">
+      <div class="contact">
+        <h2 data-i18n="contact.title">Tell us what you're building.</h2>
+        <p data-i18n="contact.sub">Message us on WhatsApp, or follow our work on Instagram.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://wa.me/message/L27UIOWQSNZ4L1" target="_blank" rel="noopener noreferrer"><span data-i18n="contact.wa">Message on WhatsApp</span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-outline" href="https://instagram.com/evolvia__digital" target="_blank" rel="noopener noreferrer"><span data-i18n="contact.ig">Follow on Instagram</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <a class="brand" href="#home" aria-label="PARTAW DIGITAL">
+      <img src="partaw-logo.png" alt="">
+      <span class="brand-text"><b>PARTAW</b><i>DIGITAL</i></span>
+    </a>
+    <p data-i18n="footer.slogan">A Brighter Digital Future</p>
+    <small>© <span id="year"></span> PARTAW DIGITAL · <span data-i18n="footer.rights">All rights reserved.</span></small>
+  </footer>
+</body>
+</html>
